@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 68, 0, 0.509);
+}
+#nav{
+    position:fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: #F6F6F6;
+    box-shadow: 5px 5px 5px rgb(72, 60, 60);
+    display: flex;
+    align-items: center;
+    justify-content: space space-evenly;
+    gap: 100px;
+    z-index: 99999999999;
+}
+#nav1{
+    position: relative;
+    left: 30%;
+    display: flex;
+    gap: 60px;
+   
+}
+#nav1 a{
+    text-decoration: none;
+    font-family: gilroy;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.659);
+    transition: 0.5s ease-in-out;
+
+}
+#nav1 a:hover{
+    color: rgb(241, 23, 23);
+}
+#nav1 input{
+    padding: 5px 70px;
+    border-radius: 50px;
+    border: 1px solid rgb(83, 72, 72);
+}
+#nav>img{
+    height: 50px;
+    padding-left: 60px;
+    
+}
+
+#left{
+    top: 17%;
+    left: -60vh;
+    position: fixed;
+    height: 60vh;
+    width: 30vw;
+    background-color: green;
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 99999;
+}
+#down h2{
+    position: absolute;
+    top: 2%;
+    color: rgba(0, 0, 0, 0.645);
+}
+#left:hover{
+    left: 0;
+
+}
+#left video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+#right{
+    position: fixed;
+    height: 60vh;
+    width: 30vw;
+    background-color:#F6F6F6;
+    right: -27%;
+    top:15%;
+    border-radius: 2%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
+    z-index: 9999;
+
+}
+#right:hover{
+    right:0%;
+    opacity: 1;
+    scale: 1
+}
+#one{
+    position: relative;
+    border-radius: 20px;    
+    height:30VH;
+    width: 100%;
+    background-color: rgba(217, 200, 197, 0.235);
+    overflow: hidden;
+}
+
+
+#one audio{
+    padding: 20px 37px;
+    width: 100%;
+}
+#one img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+#right h1{
+    position: absolute;
+    top: 5%;
+    font-family: gilroy;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+#page11{
+    position: fixed;
+    height: 45vh;
+    width: 40vw;
+    background-color: #F6F6F6;
+    left: 30%;
+    top: -28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
+    cursor: pointer;
+}
+#page11>h2{
+    position: absolute;
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.623);
+}
+#page11:hover {
+      top: 10%
+}
+#page11 #one{
+    height: 100%;
+    width: 100%;
+
+}
+#page11 #one img{
+    height: 70%;
+    
+}
+#page11 #one {
+    height:70%;
+}
+#rect{
+    position: absolute;
+    height: 62vh;
+    width: 100vw;
+    top: 23%;
+    left: 4%;
+    /* background-color: green; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+#rect video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+}
+/* down page has been started from here */
+#down{
+    height: 30vh;
+    position: fixed;
+    width: 60vw;
+    background-color: aliceblue;
+    bottom: -25%;
+    left: 17%;
+    border-radius: 5px  ;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    z-index: 99999;
+
+}
+#down:hover{
+    bottom: 00%;
+}
+
+#down #two{
+     overflow: hidden;
+    position: relative;
+    height: 90%;
+    width:30%;
+    border-radius: 5px;
+    /* background-color: red; */
+   
+}
+#down #two>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color:#FFA07D     ;
+   
+}
+#box{
+    position: relative;
+    top: 15%;
+    height: 50vh;
+    width: 85%;
+    /* background-color: blue ; */
+    left: 7%;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    overflow: hidden    ;
+}
+#box>#three{
+    
+   height: 85%;
+   width: 45%;
+   background-color:rgba(231, 231, 197, 0.724);
+   border-radius: 10px;
+   overflow: hidden;
+    
+}
+#box>#three>img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+#box>#three>audio{
+    padding: 5px 30px;
+    position: relative;
+    right: 7%;
+}
+#circle{
+    position: relative;
+    top: 17%;
+    left: 10%;
+    height: 25vh;
+    width: 80vw;
+    /* background-color: green; */
+    display: flex;
+    gap: 40px;
+}
+#circle >#circle1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 174);
+    border-width: 5px;
+    border-color: orangered;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(187, 61, 15, 0.611);
+    animation-name: move;
+    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+#circle >#circle1:hover{
+    scale: 1.5;
+}
+@keyframes move{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+#circle >#circle1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3{
+    height: 60vh;
+    width: 100vw;
+    background-color: #FFA07D;
+}
+#rect3{
+    height: 90%;
+    width: 90%;
+    position: relative;
+    top: 5%;
+    left: 4.5%;
+    border-radius: 10px;
+    /* background-color: green; */
+    overflow: hidden;
+}
+#rect3 >video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width: 700px) {
+    #page1{
+    background-color: #405169;
+    }
+   #nav{
+    position: fixed;
+    height: 60px;
+    
+   }
+   #nav1{
+    position: relative;
+    left: -24%;
+    display: flex;
+    gap: 6px;
+   
+}
+#nav1 a{
+    text-decoration: none;
+    font-family: gilroy;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.659);
+    transition: 0.5s ease-in-out;
+     font-size: 13px;
+
+}
+#nav>img{
+    height: 35px;
+    padding-left: 20px;
+    
+}
+#nav1 input{
+    padding: 2px 3px;
+    border-radius: 50px;
+    border: 1px solid rgb(182, 139, 139);
+}
+#rect{
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    top: 23%;
+    left: -0%;
+    /* background-color: green; */
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+#rect video {
+    height: 50%;
+    width:100%;
+    object-fit: cover ;
+}
+#left{
+    top: 54%;
+    left: -40vw;
+    position: fixed;
+    height: 30vh;
+    width: 50vw;
+    /* background-color: green; */
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;    
+
+}
+#right{
+    position: fixed;
+    height: 30vh;
+    width: 60vw;
+    background-color:#F6F6F6;
+    right: -50%;
+    top:55%;
+    border-radius: 2%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
+    z-index: 9999;
+}
+#one{
+    /* position:absolute; */
+    border-radius: 10px;    
+    height:52%;
+    width: 60%;
+    background-color: rgba(128, 17, 0, 0.547);
+    /* overflow: hidden; */
+}
+
+#one audio{
+    padding: 0px 15px;
+    width: 100%;
+}
+#page11{
+    position: fixed;
+    height: 40vh;
+    width: 100vw;
+    background-color: #b8a0a0;
+    left: 00%;
+    top: -30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    opacity: 0.9;
+    cursor: pointer;
+}
+#down{
+    height: 30vh;
+    position: fixed;
+    width: 100%;
+    background-color: #a19d9d9d;
+    bottom: -27%;
+    left: 0%;
+    border-radius: 5px  ;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    z-index: 9999999;
+
+}
+#down #two{
+    overflow: hidden;
+   position: relative;
+   height: 60%;
+   width:50%;
+   border-radius: 5px;
+   /* background-color: red; */
+  
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color:#405169    ;
+   
+}
+#box{
+    position: relative;
+    top: -40%;
+    height: 100vh;
+    width: 70vw;
+    /* background-color: blue ; */
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+    overflow: hidden    ;
+}
+#box>#three{
+    
+   height: 100%;
+   width: 100%;
+   background-color:rgba(231, 231, 197, 0.724);
+   border-radius: 10px;
+   overflow: hidden;
+    
+}
+#box>#three>img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+#box>#three>audio{
+    padding: 5px 30px;
+    position: relative;
+    right: -2%;
+}
+#circle{
+    position: relative;
+    top: -36%;
+    left: 0%;
+    height: 90vh;
+    width:100vw;
+    /* background-color: green; */
+    display: flex;
+    gap: 30px;
+}
+#circle >#circle1{
+    height: 60px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 174);
+    border-width: 5px;
+    border-color: orangered;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(187, 61, 15, 0.611);
+    animation-name: move;
+    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+#circle >#circle1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3{
+    height: 60vh;
+    width: 100vw;
+    background-color: #405169;
+}
+#rect3{
+    height: 50%;
+    width: 90%;
+    position: relative;
+    top: -20%;
+    left: 4.5%;
+    border-radius: 10px;
+    /* background-color: green; */
+    overflow: hidden;
+}
+#rect3 >video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+  }
